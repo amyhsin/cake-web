@@ -1,0 +1,230 @@
+/* .slideshow { height: 0px; width: 0px; margin: auto}
+.slideshow img { padding: 5px; border: 1px solid #ccc; background-color: #eee; }
+*{
+	font-family : "Arial","微軟正黑體";
+}
+body {
+	background-color : rgb(248,196,113);
+}
+#logo img{
+	padding-left:50px;
+	
+}
+#logo ul{
+	list-style-type: none;
+}
+#logo ul li a{
+  font-size:20px;
+  color: black;
+  text-decoration: none;
+}
+
+#logo ul li a:hover{
+	color: rgb(220,118,51);
+}
+#logo li{
+	display:inline-block;
+	padding: 10px;
+}
+#logo p{
+	font-size:10px;
+	width:1100px;
+	text-align:center;
+	padding-top:55px;
+} */
+
+/*----------------------------------------------------*/
+.head{
+	background-color: rgb(236, 170, 93); height: 35px;
+	display: flex;
+	justify-content: flex-end;
+}
+.head>.link1{
+	flex: none;
+	padding-top: 8px; 
+}
+.head>.link2{
+	flex: none;
+	padding: 8px;
+	margin-right: 25px;
+}
+body{
+	font-family: "微軟正黑體";
+}
+.nav{
+	/* border: 3px red solid; */
+	height: 140px;
+}
+.nav>.logo{
+	/* border: 2px solid purple; */
+	float: left;
+	width: 200px;
+	height: 100px;
+	padding-top: 20px;
+	padding-left: 70px;
+}
+#menublock{
+	position: absolute;
+	/* border: 2px yellow dashed; */
+	height: 140px;
+	/* width: 600px; */
+	margin-left: 300px;
+	padding-left: 300px;
+	/* float: right; */
+}
+#menublock li{
+	list-style-type: none;
+	width: 130px;
+	/* border: 2px green dashed; */
+	/* float: right; */
+}
+.menu {
+	float: left;
+	/* border: 2px green solid; */
+	/* width: 100px; */
+	text-align: center;
+	margin-top: 80px;
+	/* margin-left: 50px; */
+}
+a{
+	text-decoration: none;
+}
+.submenu {
+	margin-top: 2px; padding: 2px;
+	width: 150px;
+}
+.submenu li{
+	border: 2px rgb(236, 170, 93) solid;
+	border-radius: 20px;
+	background-color: white;
+	margin: 1px;
+	width: 150px;
+}
+.menu, .submenu {
+	background-position: center 30px;
+	background-repeat: no-repeat;
+}
+.menu a{
+	color: #555555;
+}
+.submenu a{
+	color: #777777;
+}
+.menu ion-icon{
+    vertical-align: bottom;
+}
+.menu span{
+    background-color: rgb(236, 170, 93);
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 5px;
+}
+footer{
+	/* border: 2px greenyellow solid; */
+	margin-top: 30px;
+	background-color: rgb(236, 170, 93);
+	height: 80px;
+}
+#f1{
+	font-size: 12px;
+	font-weight: bold;
+	color: #555555;
+	/* border: 2px greenyellow solid; */
+	height: 80px;
+	line-height: 80px;
+	padding-left: 15px;
+}
+#f1 span{
+	/* color: red; */
+	/* border: 2px purple solid; */
+	float: right;
+	padding-right: 10px;
+}
+@media screen and (min-width:1100px){
+	.menucontainer{display: none;}
+}
+@media screen and (max-width:1100px) {
+	#menublock {display: none;}
+
+    .menu {
+        position: relative;
+        display: inline-block;
+	}
+	#menubtn{
+		width: 80px;
+		height: 40px;
+		font-weight: bold;
+		color: #999999;
+		cursor: pointer;
+		background-color: black;
+		border-radius: 10%;
+		opacity: 0.8;
+		text-align: center;
+	}
+	#menubtn:hover{
+		width: 90px;
+		transition: all 0.5s;
+	}
+    .toggle-nav {
+        display: block;
+        position: absolute;
+        left: 4%;
+        color: #ffffff;
+        text-decoration: none;
+        line-height: 40px;
+    }
+    .menu .menu-logo {
+        position: relative;
+        left: 40%;
+    }
+    .menu ul {
+        display: none;
+    }
+    .closebtn {
+		position: relative;
+		width: 30px;
+        margin: 16px;
+        left: 80%;
+		font-size: 30px;
+		color: #7263a0;
+    }
+    .closebtn:hover {
+        cursor: pointer;
+        color: #FF9900;
+    }
+    .leftmenu {
+        display: block;
+		background-color: #272626;
+		opacity: 0.95;
+        color: white;
+        height: 100%;
+        width: 300px;
+        z-index: 1;
+        position: fixed;
+        left: -100%;
+        transition: all 3s;
+    }
+    .leftmenu.active {
+        position: fixed;
+        top: 0;
+        left: 0%;
+        transition: all 1s;
+    }
+    .leftul li {
+        list-style: none;
+        margin: 32px auto;
+		font-size: 20px;
+	}
+	.leftul li.not-active a{
+		color: #ffffff;
+	}
+    .leftul li.current-active, .leftul li:hover {
+        color: #FF9900;
+	}
+    .leftul li:hover {
+        cursor: pointer;
+	}
+	.nav>.logo{
+		padding-left: 100px;
+	}
+}
