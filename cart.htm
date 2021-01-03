@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>柳丁皮甜點屋 | CART </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="Shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+	
+<body style="margin: 0px; background-color: #eeeeee;">
+	<div class="content">
+		<div class = "head">
+			<div class="link1">
+				<a href="https://www.facebook.com/OrangePeelHouse/"><img src="image/facebookchanged.png" width="20" height="20"/>
+			</div>
+			<div class="link2">
+				<a href="contact.html"><img src="image/emailchanged.png" width="20" height="20"/>
+			</div>
+		</div>
+		
+		<div class="menucontainer">
+			<div class="leftmenu">
+				<div class="closebtn">
+					<a>X</a>
+				</div>
+				<ul id="menuUl" class="leftul">
+					<li class="not-active"><a href="home.html">首頁</a></li>
+					<li class="not-active"><a href="about.html">關於柳丁皮</a></li>
+					<li class="not-active"><a href="shop.htm">商店</a></li>
+					<li class="current-active"><a>購物車</a></li>
+					<li class="not-active"><a href="contact.html">聯絡我們</a></li>
+				</ul>
+			</div>
+			<nav class="menu">
+				<a id="menubtn" class="toggle-nav" >Menu≡</a>
+			</nav>
+		</div>
+
+		<div class ="nav">
+			<div class="logo"><a href="home.html"><img src="image/homelogo.png" height="100" width="200" /></div>
+			<div id="menublock">
+				<li class="menu"><strong><a href="about.html" onmouseover="over(this);"
+					onmouseout="out(this);">關於柳丁皮</a></strong></li>
+				<li class="menu"><strong><a href="shop.htm" onmouseover="over(this);"
+					onmouseout="out(this);">商店</a></strong>
+					<ul class="submenu">
+						<li><strong><a href="cheese.htm" onmouseover="over(this);" onmouseout="out(this);">乳酪塔</a></strong></li>
+						<li><strong><a href="cookie.htm" onmouseover="over(this);" onmouseout="out(this);">雪球</a></strong></li>
+						<li><strong><a href="other.htm" onmouseover="over(this);" onmouseout="out(this);">其他甜點</a></strong></li>
+					</ul>
+				</li>
+				<li class="menu"><strong><a href="contact.html" onmouseover="over(this);"
+					onmouseout="out(this);">聯絡我們</a></strong></li>
+				<li class="menu">
+                    <a href="cart.htm" onmouseover="over(this);" onmouseout="out(this);">
+                        <ion-icon name="cart-outline" size="small"></ion-icon><span>0</span>
+                    </a>
+                </li>
+			</div>
+		</div>
+        <hr size="4"/>
+        
+
+		<div class="product-container">
+			<div class="product-header">
+				<h5 class="product-title">品項</h5>
+				<h5 class="price-title">單價</h5>
+				<h5 class="quantity-title">數量</h5>
+				<h5 class="total-title">金額</h5>
+			</div>
+			<div class="products">
+
+			</div>
+		</div>
+
+
+		<!-- <footer>
+			<div id="f1">Copyright © 柳丁皮甜點屋<span>Designed by T.H.Wu</span></div> 
+		</footer> -->
+	</div>
+	
+	<script src="js/menuslideDown.js"></script>
+    <script src="js/leftmenu.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
