@@ -16,3 +16,7 @@
   * 用 Javascript 寫出調整購買數量及將商品從購物車刪除的功能
 * 聯絡我們
   * 利用 Form 功能設計問卷，蒐集顧客建議
+  
+  <br/>
+  <br/>
+  #### 作品預覽:https://amyhsin.github.io/cake-web/home.html
