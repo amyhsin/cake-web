@@ -1,4 +1,6 @@
 # cake-web
+#### 作品預覽：https://amyhsin.github.io/cake-web/home.html
+
 #### 名為柳丁皮甜點屋的網頁
 #### 有 RWD 設計，當視窗寬度小於 1100 px 時，會變為開合式選單
 <br/>
@@ -15,7 +17,3 @@
   * 用 Javascript 製作調整購買數量及將商品從購物車刪除的功能
 * **聯絡我們**
   * 利用 Form 功能設計問卷，蒐集顧客建議
-  
-  <br/>
-  <br/>
-#### 作品預覽：https://amyhsin.github.io/cake-web/home.html
